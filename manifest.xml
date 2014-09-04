@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="taskcluster"
+    fetch="https://github.com/taskcluster/" />
+  <default revision="master"
+           remote="taskcluster"
+           sync-j="4" />
+
+  <project path="queue" name="taskcluster-queue" />
+  <project path="index" name="taskcluster-index" />
+  <project path="base" name="taskcluster-base" />
+  <project path="client" name="taskcluster-client" />
+  <project path="gecko-images" name="gecko-images" />
+  <project path="docker-worker" name="docker-worker" />
+  <project path="cli" name="taskcluster-cli" />
+  <project path="aws-provisioner" name="aws-provisioner" />
+  <project path="example-worker" name="example-worker" />
+  <project path="github-graph-example" name="github-graph-example" />
+  <project path="docs" name="taskcluster-docs" />
+  <project path="task-graph-scheduler" name="task-graph-scheduler" />
+  <project path="events" name="taskcluster-events" />
+  <project path="proxy" name="taskcluster-proxy" />
+  <project path="dockerode-process" name="dockerode-process" />
+  <project path="auth" name="taskcluster-auth" />
+  <project path="status" name="taskcluster-status" />
+  <project path="azure-blobstream" name="azure-blobstream" />
+  <project path="registry" name="taskcluster-registry" />
+  <project path="pulse" name="taskcluster-pulse" />
+  <project path="treeherder" name="taskcluster-treeherder" />
+  <project path="jsonschema" name="jsonschema" />
+  <project path="old/client" name="client" />
+  <project path="old/worker-stats" name="worker-stats" />
+  <project path="utils" name="taskcluster-utils" />
+  <project path="old/apidesign" name="apidesign" />
+  <project path="old/jobqueue" name="taskcluster-jobqueue" />
+  <project path="old/manifest" name="taskcluster-manifest" />
+  <project path="old/packer-boxes" name="packer-boxes" />
+  <project path="old/docker-services" name="docker-services" />
+  <project path="old/logserver" name="logserver" />
+  <project path="old/provisioner-hub" name="provisioner-hub" />
+
+</manifest>
