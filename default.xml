@@ -10,6 +10,7 @@
   <project path="index" name="taskcluster-index" />
   <project path="base" name="taskcluster-base" />
   <project path="client" name="taskcluster-client" />
+  <project path="client.py" name="taskcluster-client.py" />
   <project path="gecko-images" name="gecko-images" />
   <project path="docker-worker" name="docker-worker" />
   <project path="cli" name="taskcluster-cli" />
